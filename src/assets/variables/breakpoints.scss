@@ -1,0 +1,9 @@
+// Breakpoints for media querries
+// Use breakpoints based on content not device
+// think carefully before adding a breakpoint
+
+:root {
+    --simplifiedView: "only screen and (max-width: 992px)";
+    --fullView: "only screen and (min-width: 992px)";
+    --extraLargeView: "only screen and (min-width: 1560px)";
+}

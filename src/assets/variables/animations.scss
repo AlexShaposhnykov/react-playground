@@ -1,0 +1,10 @@
+// All transitions, cubic-beziers are defined here
+// Never use your own transitions or beziers 
+// because it can affect consistent feeling of animations
+
+:root {
+    --base-transition: all .3s;
+    --transition-fast: all .2s;
+
+    --ease-out-strong: cubic-bezier(0.69, 0.35, 0.2, 0.89);
+}

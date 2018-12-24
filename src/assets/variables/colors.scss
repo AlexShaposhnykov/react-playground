@@ -1,0 +1,49 @@
+// All colors used in application are defined here
+// always reference some color variables
+// NEVER USE COLOR CODES DIRECTLY IN THE CODE
+
+:root {
+    // Main colors
+
+    --white: #FFFFFF;
+    --red: #F44336;
+    --blue: #006CFF;
+    --green: #97cb36;
+    --amber: #FFA600;
+    --black: #000000;
+
+    // Primary color
+    --primary: #006CFF;
+
+    //Primary shades
+    --primary-lightest: #e5f0ff;
+    --primary-lighter:#b2d2ff;
+    --primary-light: #7fb5ff;
+    --primary-darker: #0056cc;
+    --primary-dark: #004bb2;
+    --primary-darkest: #00367f;
+
+    // Text colors
+
+    --hint-text-color: rgba(0,0,0,.26);
+    --secondary-text-color: rgba(0,0,0,.54);
+    --additional-text-color: rgba(0,0,0,0.67);
+    --text-color: rgba(0,0,0,.87);
+    --link-color: var(--primary);
+    --text-color-on-dark: var(--white);
+
+    // Gray colors
+
+    --gray-lightest: #ced8e5;
+    --gray-lighter: #b7c0cc;
+    --gray-light: #a0a8b2;
+    --gray-base: #72787f;
+    --gray-dark: #5b6066;
+    --gray-darker: #44484c;
+    --gray-darkest: #2d3033;
+
+    // Feedback colors
+    --warning-color: var(--amber);
+    --success-color: var(--green);
+    --error-color: var(--red);
+}
